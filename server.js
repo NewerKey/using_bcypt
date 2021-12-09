@@ -26,8 +26,7 @@ bcrypt.hash(myPlaintextPassword, saltRounds, (err, hash) => {
 //END_ASYNC
 
 //START_SYNC
-
-
+const hash = bcrypt.hashSync(myPlaintextPassword, saltRounds);
 
 //END_SYNC
 
